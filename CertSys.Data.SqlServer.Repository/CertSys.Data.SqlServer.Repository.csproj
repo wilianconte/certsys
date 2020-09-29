@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CerSys.Data.Model\CerSys.Data.Model.csproj" />
+    <ProjectReference Include="..\CertSys.Data.SqlServer.Context\CertSys.Data.SqlServer.Context.csproj" />
+  </ItemGroup>
+
+</Project>
